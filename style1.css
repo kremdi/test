@@ -44,9 +44,7 @@ body{
 
 }
 
-.wrapmenu{
 
-}
 .menu-bar{
     display: flex;
     align-items: center;
@@ -77,19 +75,17 @@ body{
     transition: .3s ease;
 }
 
-.menu-text:hover
-{
+.menu-text:hover{
     color: #555;
 }
-
-.menu-text:hover:after
-{
-    opacity: 1
-    color: #555;
+.menu-text:hover:after{
+    opacity: 1;
+    color: #fff;
 }
 
 
-}
+
+
 
 
 
