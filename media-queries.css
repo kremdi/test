@@ -7,12 +7,28 @@
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
 /* Styles */
+    .menu-bar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen
 and (min-width : 321px) {
 /* Styles */
+    .menu-bar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
 }
 
 /* Smartphones (portrait) ----------- */
