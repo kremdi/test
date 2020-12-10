@@ -1,0 +1,104 @@
+body{
+    background: #CFCFCF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22;
+    margin: 0;
+    padding: 0;
+    width: auto;
+
+}
+
+
+
+.logo-img{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 36px;
+
+
+}
+.text-logo
+{
+    width: 100%;
+    letter-spacing: 0.16em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Viga';
+    color: #555;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    display: block;
+    transition: all .2s ease;
+    font-size: 37px;
+    margin-left: 4px;
+    margin-top: -10px;
+}
+
+.text-logo:hover{
+    color: #383838;
+
+}
+
+.wrapmenu{
+
+}
+.menu-bar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.menu-text{
+
+    text-decoration: none;
+    margin: 0 102px;
+    margin-top: 39px;
+    transition: .3s ease;
+    color: #888;
+}
+
+.menu-text:after{
+    content: "";
+    margin-top: 3px;
+    display: block;
+    width: auto;
+    height: 2px;
+    background-color: #888;
+    border-radius: 1px;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.menu-text:hover
+{
+    color: #555;
+}
+
+.menu-text:hover:after
+{
+    opacity: 1
+    color: #555;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

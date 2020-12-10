@@ -1,0 +1,125 @@
+<meta name="viewport" content="width=device-width">
+/*
+ * Author: http://stuffandnonsense.co.uk/blog/about/hardboiled_css3_media_queries/
+ */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+    .menu-bar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;}
+    .menu-text{
+    text-decoration: none;
+    margin: 0 102px;
+    margin-top: 15px;
+    transition: .3s ease;
+    color: #888;
+    font-size:20px;}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+    .menu-bar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;}
+    .menu-text{
+    text-decoration: none;
+    margin: 0 102px;
+    margin-top: 15px;
+    transition: .3s ease;
+    color: #888;
+    font-size:20px;}
+
+}
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+    .menu-bar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+    .menu-text{
+
+    text-decoration: none;
+    margin: 0 60px;
+    margin-top: 39px;
+    transition: .3s ease;
+    color: #888;
+    font-size: 25px;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+    .menu-text{
+    text-decoration: none;
+    margin: 0 30px;
+    margin-top: 39px;
+    transition: .3s ease;
+    color: #888;
+    font-size: 30px;}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (max-width : 857px)
+and (min-width : 400px) {
+/* Styles */
+    .menu-text{
+    text-decoration: none;
+    margin: 0 60px;
+    margin-top: 39px;
+    transition: .3s ease;
+    color: #888;
+    font-size: 20px;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
